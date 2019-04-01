@@ -109,6 +109,25 @@ body {
   height: 100%;
 }
 
+header, main, footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  line-height: 1.5em;
+  font-weight: 700;
+}
+
+header h1 {
+  font-size: 2.5em;
+
+}
+
+main {
+  font-size: 1.25em;
+  height: 150px;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -116,6 +135,7 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -135,6 +155,10 @@ body {
 
 .div-2, .div-3 {
   border-left: #404040 2px solid;
+}
+
+footer {
+  justify-content: center;
 }
 
 
